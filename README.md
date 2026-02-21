@@ -22,7 +22,6 @@ This repository contains the implementation of **Contrastive Logit Steering (CLS
 ```
 cls_repo/
 │
-├── acl_utils.py              # Shared utility: loads AdvBench dataset
 ├── requirements.txt          # Python dependencies
 │
 ├── experiments/              # CLS generation scripts (one per model)
@@ -32,6 +31,7 @@ cls_repo/
 │   ├── qwen_big.py           # Qwen-2.5 7B Instruct — alpha sweep
 │   ├── gemma_small.py        # Gemma-3 4B / 12B Instruct — alpha sweep
 │   └── angle_test.py         # Refusal vector angle/cosine metrics on safe prompts
+    └── acl_utils.py              # Shared utility: loads AdvBench dataset
 │
 ├── evaluation/
 │   └── judge.py              # LLM-as-a-judge evaluator (Llama-3-8B)
