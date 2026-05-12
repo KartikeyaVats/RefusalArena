@@ -24,7 +24,7 @@ from huggingface_hub import login
 prompts, targets = readAdvBench()
 
 # Replace with your actual token starting with "hf_"
-hf_token = "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"
+hf_token = "YOUR_HF_TOKEN_HERE"
 
 login(token=hf_token)
 
